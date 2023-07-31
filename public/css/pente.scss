@@ -1,0 +1,45 @@
+#board {
+  position: relative;
+  background-color: #dcb35c;
+  width: 608px;
+  height: 608px;
+  margin: 48px auto;
+}
+
+.tile {
+  background-size: cover;
+  position: absolute;
+  height: 32px;
+  width: 32px;
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+}
+
+@for $i from 0 through 18 {
+  [data-x="#{$i}"] { left: $i * 32px; }
+  [data-y="#{$i}"] { top: $i * 32px; }
+}
+
+@each $y in "t", "c", "b" {
+  @each $x in "l", "c", "r" {
+    .board-#{$y}#{$x} { background-image: url("../images/board-#{$y}#{$x}.svg"); }
+  }
+}
+
+@each $color in "black", "white", "red", "yellow", "green", "blue" {
+  .stone[data-color="#{$color}"] { background-color: #{$color}; }
+}
+
+.stone {
+  background-image: url("../images/stone.svg");
+  background-size: cover;
+  position: absolute;
+  height: 32px;
+  width: 32px;
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+  border-radius: 16px;
+  z-index: 10;
+}

@@ -1,0 +1,244 @@
+#board {
+  position: relative;
+  background-color: #dcb35c;
+  width: 608px;
+  height: 608px;
+  margin: 48px auto;
+}
+
+.tile {
+  background-size: cover;
+  position: absolute;
+  height: 32px;
+  width: 32px;
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+}
+
+[data-x="0"] {
+  left: 0px;
+}
+
+[data-y="0"] {
+  top: 0px;
+}
+
+[data-x="1"] {
+  left: 32px;
+}
+
+[data-y="1"] {
+  top: 32px;
+}
+
+[data-x="2"] {
+  left: 64px;
+}
+
+[data-y="2"] {
+  top: 64px;
+}
+
+[data-x="3"] {
+  left: 96px;
+}
+
+[data-y="3"] {
+  top: 96px;
+}
+
+[data-x="4"] {
+  left: 128px;
+}
+
+[data-y="4"] {
+  top: 128px;
+}
+
+[data-x="5"] {
+  left: 160px;
+}
+
+[data-y="5"] {
+  top: 160px;
+}
+
+[data-x="6"] {
+  left: 192px;
+}
+
+[data-y="6"] {
+  top: 192px;
+}
+
+[data-x="7"] {
+  left: 224px;
+}
+
+[data-y="7"] {
+  top: 224px;
+}
+
+[data-x="8"] {
+  left: 256px;
+}
+
+[data-y="8"] {
+  top: 256px;
+}
+
+[data-x="9"] {
+  left: 288px;
+}
+
+[data-y="9"] {
+  top: 288px;
+}
+
+[data-x="10"] {
+  left: 320px;
+}
+
+[data-y="10"] {
+  top: 320px;
+}
+
+[data-x="11"] {
+  left: 352px;
+}
+
+[data-y="11"] {
+  top: 352px;
+}
+
+[data-x="12"] {
+  left: 384px;
+}
+
+[data-y="12"] {
+  top: 384px;
+}
+
+[data-x="13"] {
+  left: 416px;
+}
+
+[data-y="13"] {
+  top: 416px;
+}
+
+[data-x="14"] {
+  left: 448px;
+}
+
+[data-y="14"] {
+  top: 448px;
+}
+
+[data-x="15"] {
+  left: 480px;
+}
+
+[data-y="15"] {
+  top: 480px;
+}
+
+[data-x="16"] {
+  left: 512px;
+}
+
+[data-y="16"] {
+  top: 512px;
+}
+
+[data-x="17"] {
+  left: 544px;
+}
+
+[data-y="17"] {
+  top: 544px;
+}
+
+[data-x="18"] {
+  left: 576px;
+}
+
+[data-y="18"] {
+  top: 576px;
+}
+
+.board-tl {
+  background-image: url("../images/board-tl.svg");
+}
+
+.board-tc {
+  background-image: url("../images/board-tc.svg");
+}
+
+.board-tr {
+  background-image: url("../images/board-tr.svg");
+}
+
+.board-cl {
+  background-image: url("../images/board-cl.svg");
+}
+
+.board-cc {
+  background-image: url("../images/board-cc.svg");
+}
+
+.board-cr {
+  background-image: url("../images/board-cr.svg");
+}
+
+.board-bl {
+  background-image: url("../images/board-bl.svg");
+}
+
+.board-bc {
+  background-image: url("../images/board-bc.svg");
+}
+
+.board-br {
+  background-image: url("../images/board-br.svg");
+}
+
+.stone[data-color=black] {
+  background-color: black;
+}
+
+.stone[data-color=white] {
+  background-color: white;
+}
+
+.stone[data-color=red] {
+  background-color: red;
+}
+
+.stone[data-color=yellow] {
+  background-color: yellow;
+}
+
+.stone[data-color=green] {
+  background-color: green;
+}
+
+.stone[data-color=blue] {
+  background-color: blue;
+}
+
+.stone {
+  background-image: url("../images/stone.svg");
+  background-size: cover;
+  position: absolute;
+  height: 32px;
+  width: 32px;
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+  border-radius: 16px;
+  z-index: 10;
+}
+
+/*# sourceMappingURL=pente.css.map */

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="64"
+   height="64"
+   viewBox="0 0 16.933333 16.933334"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="stone.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="true"
+     units="px"
+     inkscape:zoom="7.1642483"
+     inkscape:cx="26.590368"
+     inkscape:cy="29.591381"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-1928"
+     inkscape:window-y="559"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid824"
+       originx="8.4666665"
+       originy="8.466667"
+       spacingx="1.0583333"
+       spacingy="1.0583333"
+       empspacing="4"
+       dotted="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <radialGradient
+       id="radialGradient6778"
+       cx="152.00001"
+       cy="152.00001"
+       r="392.00001"
+       fx="152.00001"
+       fy="152.00001"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.26458334,0,0,0.26458334,-259.29167,-225.425)">
+      <stop
+         offset="0"
+         stop-color="#777"
+         id="stop6772"
+         style="stop-color:#ffffff;stop-opacity:0.49803922" />
+      <stop
+         offset=".3"
+         stop-color="#222"
+         id="stop6774"
+         style="stop-color:#222222;stop-opacity:0.24705882" />
+      <stop
+         offset="1"
+         stop-color="#000"
+         id="stop6776"
+         style="stop-color:#000000;stop-opacity:0" />
+    </radialGradient>
+    <radialGradient
+       id="rg"
+       cx="152.00001"
+       cy="152.00001"
+       r="392.00001"
+       fx="152.00001"
+       fy="152.00001"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.26458334,0,0,0.26458334,-259.29167,-225.425)">
+      <stop
+         offset="0"
+         stop-color="#777"
+         id="stop5365" />
+      <stop
+         offset=".3"
+         stop-color="#222"
+         id="stop5367" />
+      <stop
+         offset="1"
+         stop-color="#000"
+         id="stop5369" />
+    </radialGradient>
+    <radialGradient
+       id="rg-0"
+       cx="235.3"
+       cy="245.10001"
+       r="235.2"
+       fx="235.3"
+       fy="245.10001"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.03455781,0,0,0.03455781,-0.17277555,-0.17278396)"
+       xlink:href="#rg">
+      <stop
+         offset=".7"
+         stop-color="#FFF"
+         id="stop5654"
+         style="stop-color:#ff00ff;stop-opacity:0" />
+      <stop
+         offset=".9"
+         stop-color="#DDD"
+         id="stop5656"
+         style="stop-color:#dddddd;stop-opacity:0" />
+      <stop
+         offset="1"
+         stop-color="#777"
+         id="stop5658"
+         style="stop-color:#777777;stop-opacity:0.24705882" />
+    </radialGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#radialGradient6778"
+       id="radialGradient5761"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.03455781,0,0,0.03455781,-0.17277555,-0.17278396)"
+       cx="152.00001"
+       cy="152.00001"
+       fx="152.00001"
+       fy="152.00001"
+       r="392.00001" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       cx="8.4666672"
+       cy="8.4666672"
+       fill="url(#rg)"
+       id="circle5376"
+       style="fill:url(#radialGradient5761);stroke-width:0.264583"
+       r="8.4666672" />
+    <circle
+       cx="8.4666672"
+       cy="8.4666672"
+       fill="url(#rg)"
+       id="circle5665"
+       style="fill:url(#rg-0);fill-opacity:1;stroke-width:0.264583"
+       r="8.4666672" />
+    <ellipse
+       style="fill:none;stroke:#000000;stroke-width:1.05833;stroke-linejoin:round"
+       id="path853"
+       cx="8.4666672"
+       cy="8.4666672"
+       rx="7.9375014"
+       ry="7.937499" />
+  </g>
+</svg>
